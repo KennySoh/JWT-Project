@@ -24,12 +24,12 @@ Src: https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5a
 ### Session based authentication
 In the session based authentication, the server will create a session for the user after the user logs in. The session id is then stored on a cookie on the user’s browser. While the user stays logged in, the cookie would be sent along with every subsequent request. The server can then compare the session id stored on the cookie against the session information stored in the memory to verify user’s identity and sends response with the corresponding state!
 
-![images](https://github.com/KennySoh/JWT-Project/pic/auth1)
+![images](https://github.com/KennySoh/JWT-Project/blob/master/pic/auth1.png)
 
 ### Token Based Authentication
 Many web applications use JSON Web Token (JWT) instead of sessions for authentication. In the token based application, the server creates JWT with a secret and sends the JWT to the client. The client stores the JWT (usually in local storage) and includes JWT in the header with every request. The server would then validate the JWT with every request from the client and sends response.
 
-![images](https://github.com/KennySoh/JWT-Project/pic/auth2)
+![images](hhttps://github.com/KennySoh/JWT-Project/blob/master/pic/auth2.png)
 
 
 ## What is the JSON Web Token structure
@@ -50,8 +50,5 @@ Many web applications use JSON Web Token (JWT) instead of sessions for authentic
       secret)
 ***
 
-Jwt is for authirisation (Not authentication)
-make sure its the same user that logged in..
-normally session id-
 
 

@@ -29,7 +29,18 @@ In the session based authentication, the server will create a session for the us
 ### Token Based Authentication
 Many web applications use JSON Web Token (JWT) instead of sessions for authentication. In the token based application, the server creates JWT with a secret and sends the JWT to the client. The client stores the JWT (usually in local storage) and includes JWT in the header with every request. The server would then validate the JWT with every request from the client and sends response.
 
-![images](hhttps://github.com/KennySoh/JWT-Project/blob/master/pic/auth2.png)
+![images](https://github.com/KennySoh/JWT-Project/blob/master/pic/auth2.png)
+
+### Whats a cookie
+Src: https://www.youtube.com/watch?v=xdH9zsW1CK0
+Src: https://www.youtube.com/watch?v=I01XMRo2ESg
+
+Cookie is a small piece of data stored in the browser for website. Commonly used for temporary information. Similar to a dog tag, eg user.id=12345. NOrmally <4kb... (practically just 100 bytes)
+  
+![images](https://github.com/KennySoh/JWT-Project/blob/master/pic/cookie1.png)  
+Allow google-ads network to keep track of ur online activity. 
+
+
 
 
 ## What is the JSON Web Token structure

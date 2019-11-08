@@ -45,5 +45,12 @@ Html
 
 <div id="app"></div>
 ```
-### 
+### Why Should we Choose React
+***
+- UI state becomes difficult to handle with Vanilla Javacript
+- Focus on Business Logic, not on preventing your App from exploding
+- Huge Ecosystem.... 
+***
 
+### Single Page Applications vs Multi Page Applications
+![Image](https://github.com/KennySoh/JWT-Project/blob/master/pic/react2.png) 

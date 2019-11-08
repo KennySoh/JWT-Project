@@ -53,4 +53,22 @@ Html
 ***
 
 ### Single Page Applications vs Multi Page Applications
-![Image](https://github.com/KennySoh/JWT-Project/blob/master/pic/react2.png) 
+![Image](https://github.com/KennySoh/JWT-Project/blob/master/pic/react3.png) 
+
+## Course Overview
+***
+- The Basics
+- Debugging
+- Styling Components
+- Componeents Deep Dive
+- HTTP Requests
+- Routing 
+- Forms & Validation
+- Redux
+- Authentication
+- Testing Introduction
+- Deployment
+- Bonus ( Animation, Webpack)
+***
+
+### 

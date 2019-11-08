@@ -1,6 +1,45 @@
 ## What is React 
-A Javascript library for building user interface. Browser-based. 
+A Javascript library for building user interface. Browser-based.  
+  
+### Works in Components   
+![Image](https://github.com/KennySoh/JWT-Project/blob/master/pic/react1.png) 
 
-Components  
-![Image](https://github.com/KennySoh/JWT-Project/edit/master/React-notes.md)
+### First React Code
+Normally u keep repeating code with html, React allow use to create reusable component.  
 
+JS (Babel)
+```
+// JS Babel used -> Allow u to use JSX syntax -> Allow compliation of react codes.
+function Person(){
+  return (
+    <div class="person">
+      <h1>{props.name}</h1>
+      <p>Your Age: {props.age}</p>
+    </div>
+  );
+}
+
+/*-------First way of rendering multiple React Componenets------------*/
+ReactDOM.render(<Person name="Max" age="28"/>, document.querySelctor("#p1");
+ReactDOM.render(<Person name="Manu" age="31"/>, document.querySelctor("#p2");
+
+/*-------Second way of rendering multiple React Componenets------------*/
+var app=(
+  <div> //Have to wrap with div, 
+    <Person name="Max" age="28"/>
+    <Person name="Manu" age="31"/>
+  </div>
+);
+
+ReactDOM.render(app, document.querySelctor("#app");
+
+```
+  
+Html  
+```
+<div id="p1"></div>
+<div id="p2"></div>
+
+<div id="app"></div>
+```
+### 

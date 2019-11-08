@@ -5,7 +5,10 @@ A Javascript library for building user interface. Browser-based.
 ![Image](https://github.com/KennySoh/JWT-Project/blob/master/pic/react1.png) 
 
 ### First React Code
-Normally u keep repeating code with html, React allow use to create reusable component.  
+Normally u keep repeating code with html, React allow use to create reusable component.    
+
+![Image](https://github.com/KennySoh/JWT-Project/blob/master/pic/react2.png)  
+
 
 JS (Babel)
 ```
@@ -43,3 +46,4 @@ Html
 <div id="app"></div>
 ```
 ### 
+
